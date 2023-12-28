@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    background-color: #eaeaea;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.isi {
+    grid: 2;
+    row-gap: 2;
+    column-gap: 5;
+}
+
+.header ul li a:hover {
+    color: blue;
+    transition: all .3s ease-in-out;
+}
+
+.header a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.isi .namajudul {
+    font-size: 45px;
+}
+
+img {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-top: 5px solid red;
+    border-bottom: 5px solid green;
+}
+
+.isi .namajudul {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.isi h4 {
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.isi p {
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 10px 0 -30px 0;
+    text-align: justify;
+}
+
+.isi h2 {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.isi .list-sosmed {
+    padding: 20px;
+}
+
+.isi .list-sosmed li a {
+    text-decoration: none;
+
+}
+
+.isi .list-sosmed li a:hover {
+    color: red;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+    text-transform: scale(5);
+}
+
+
+form {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+input,
+label,
+textarea {
+    display: block;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+input {
+    margin-top: -30px;
+    width: 50%;
+}
+
+textarea {
+    margin-top: -30px;
+    padding-bottom: 30px;
+    width: 50%;
+}
+
+
+button {
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+    background-color: white;
+    transition: all .3s ease-in-out;
+    border: 1px solid blue;
+    transform: scale(30px);
+    color: blue;
+    font-weight: 500;
+
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+}
